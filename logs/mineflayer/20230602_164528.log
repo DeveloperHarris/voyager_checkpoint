@@ -1,0 +1,396 @@
+2023-06-02 16:45:29,494 - mineflayer - INFO - Stopping subprocess.
+2023-06-02 16:45:30,496 - mineflayer - INFO - Starting subprocess with commands: ['node', 'C:\\Users\\harri\\src\\Voyager\\voyager\\env\\mineflayer/index.js', '3000']
+2023-06-02 16:45:31,057 - mineflayer - INFO - Server started on port 3000
+2023-06-02 16:45:31,057 - mineflayer - INFO - Subprocess is ready.
+2023-06-02 16:45:31,071 - mineflayer - INFO - {
+2023-06-02 16:45:31,071 - mineflayer - INFO - port: 64751,
+2023-06-02 16:45:31,071 - mineflayer - INFO - reset: 'soft',
+2023-06-02 16:45:31,071 - mineflayer - INFO - inventory: {},
+2023-06-02 16:45:31,072 - mineflayer - INFO - equipment: [],
+2023-06-02 16:45:31,072 - mineflayer - INFO - spread: false,
+2023-06-02 16:45:31,072 - mineflayer - INFO - waitTicks: 20,
+2023-06-02 16:45:31,072 - mineflayer - INFO - position: null
+2023-06-02 16:45:31,072 - mineflayer - INFO - }
+2023-06-02 16:45:32,306 - mineflayer - INFO - Prismarine viewer web server running on *:3001
+2023-06-02 16:47:59,948 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 16:47:59,948 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:749:15)
+2023-06-02 16:47:59,948 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:843:9)
+2023-06-02 16:47:59,948 - mineflayer - INFO - at mineTenObsidianBlocks (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1498:13)
+2023-06-02 16:47:59,948 - mineflayer - INFO - at eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1543:7)
+2023-06-02 16:47:59,948 - mineflayer - INFO - at eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1543:36)
+2023-06-02 16:47:59,948 - mineflayer - INFO - at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19)
+2023-06-02 16:47:59,948 - mineflayer - INFO - at C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:21
+2023-06-02 16:47:59,948 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 16:47:59,949 - mineflayer - INFO - No crafting table nearby
+2023-06-02 16:47:59,949 - mineflayer - INFO - at line 15:await craftItem(bot, "bucket", 1); in your code
+2023-06-02 16:49:46,931 - mineflayer - INFO - AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+2023-06-02 16:49:46,931 - mineflayer - INFO - 
+2023-06-02 16:49:46,931 - mineflayer - INFO - assert.ok(recipe)
+2023-06-02 16:49:46,931 - mineflayer - INFO - 
+2023-06-02 16:49:46,931 - mineflayer - INFO - at EventEmitter.craft (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\craft.js:12:12)
+2023-06-02 16:49:46,931 - mineflayer - INFO - at mineTenObsidianBlocks (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1502:19)
+2023-06-02 16:49:46,931 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1551:1)
+2023-06-02 16:49:46,931 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 16:49:46,931 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 16:49:46,931 - mineflayer - INFO - The expression evaluated to a falsy value:
+2023-06-02 16:49:46,931 - mineflayer - INFO - 
+2023-06-02 16:49:46,931 - mineflayer - INFO - assert.ok(recipe)
+2023-06-02 16:49:46,931 - mineflayer - INFO - 
+2023-06-02 16:51:13,981 - mineflayer - INFO - Error: Invalid item object in equip (item is null or typeof item is not object)
+2023-06-02 16:51:13,981 - mineflayer - INFO - at EventEmitter.equip (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\simple_inventory.js:93:13)
+2023-06-02 16:51:13,981 - mineflayer - INFO - at mineTenObsidianBlocks (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1519:17)
+2023-06-02 16:51:13,981 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 16:51:13,981 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1545:1)
+2023-06-02 16:51:13,981 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 16:51:13,981 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 16:51:13,981 - mineflayer - INFO - C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\simple_inventory.js:93
+2023-06-02 16:51:13,981 - mineflayer - INFO - throw new Error('Invalid item object in equip (item is null or typeof item is not object)')
+2023-06-02 16:51:13,981 - mineflayer - INFO - Invalid item object in equip (item is null or typeof item is not object)
+2023-06-02 16:51:13,981 - mineflayer - INFO - at await bot.equip(bucket, "hand"); in your code
+2023-06-02 16:53:11,220 - mineflayer - INFO - Timeout: Took to long to decide path to goal!
+2023-06-02 16:53:11,221 - mineflayer - INFO - at error (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer-pathfinder\lib\goto.js:2:15)
+2023-06-02 16:53:11,221 - mineflayer - INFO - at EventEmitter.noPathListener (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer-pathfinder\lib\goto.js:28:17)
+2023-06-02 16:53:11,221 - mineflayer - INFO - at EventEmitter.emit (node:events:512:28)
+2023-06-02 16:53:11,221 - mineflayer - INFO - at EventEmitter.monitorMovement (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer-pathfinder\index.js:391:11)
+2023-06-02 16:53:11,221 - mineflayer - INFO - at EventEmitter.emit (node:events:524:35)
+2023-06-02 16:53:11,221 - mineflayer - INFO - at Timeout.doPhysics [as _onTimeout] (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\physics.js:66:13)
+2023-06-02 16:53:11,221 - mineflayer - INFO - at listOnTimeout (node:internal/timers:568:17)
+2023-06-02 16:53:11,221 - mineflayer - INFO - at process.processTimers (node:internal/timers:511:7)
+2023-06-02 16:53:11,221 - mineflayer - INFO - Took to long to decide path to goal!
+2023-06-02 16:56:27,315 - mineflayer - INFO - Error: No furnace nearby
+2023-06-02 16:56:27,315 - mineflayer - INFO - at smeltItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1214:15)
+2023-06-02 16:56:27,315 - mineflayer - INFO - at craftIronLeggings (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1490:11)
+2023-06-02 16:56:27,315 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1518:1)
+2023-06-02 16:56:27,315 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 16:56:27,315 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 16:56:27,315 - mineflayer - INFO - In your program code: throw new Error("No furnace nearby");
+2023-06-02 16:56:27,315 - mineflayer - INFO - No furnace nearby
+2023-06-02 16:56:27,315 - mineflayer - INFO - at line 7:await smeltItem(bot, "raw_iron", "coal", 7 - (ironIngots ? ironIngots.count : 0)); in your code
+2023-06-02 16:58:17,073 - mineflayer - INFO - Error: coal is not a valid fuel
+2023-06-02 16:58:17,073 - mineflayer - INFO - at smeltItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1235:23)
+2023-06-02 16:58:17,073 - mineflayer - INFO - at async craftIronLeggings (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1512:5)
+2023-06-02 16:58:17,073 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1540:1)
+2023-06-02 16:58:17,073 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 16:58:17,073 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 16:58:17,073 - mineflayer - INFO - In your program code: throw new Error(`${fuelName} is not a valid fuel`);
+2023-06-02 16:58:17,073 - mineflayer - INFO - coal is not a valid fuel
+2023-06-02 16:58:17,073 - mineflayer - INFO - at line 29:await smeltItem(bot, "raw_iron", "coal", 7 - (ironIngots ? ironIngots.count : 0)); in your code
+2023-06-02 16:59:54,431 - mineflayer - INFO - Error: No item named coal_item
+2023-06-02 16:59:54,431 - mineflayer - INFO - at smeltItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1207:15)
+2023-06-02 16:59:54,431 - mineflayer - INFO - at craftIronLeggings (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1512:11)
+2023-06-02 16:59:54,431 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 16:59:54,431 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1540:1)
+2023-06-02 16:59:54,431 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 16:59:54,432 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 16:59:54,432 - mineflayer - INFO - In your program code: throw new Error(`No item named ${fuelName}`);
+2023-06-02 16:59:54,432 - mineflayer - INFO - No item named coal_item
+2023-06-02 16:59:54,432 - mineflayer - INFO - at line 29:await smeltItem(bot, "raw_iron", "coal_item", 7 - (ironIngots ? ironIngots.count : 0)); in your code
+2023-06-02 17:09:21,628 - mineflayer - INFO - TypeError: bot.inventory.used is not a function
+2023-06-02 17:09:21,628 - mineflayer - INFO - at depositUselessItems (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1534:39)
+2023-06-02 17:09:21,628 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 17:09:21,628 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1537:1)
+2023-06-02 17:09:21,628 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:09:21,628 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:09:21,628 - mineflayer - INFO - Your code:20
+2023-06-02 17:09:21,628 - mineflayer - INFO - const inventoryUsed = bot.inventory.used();
+2023-06-02 17:09:21,628 - mineflayer - INFO - bot.inventory.used is not a function
+2023-06-02 17:09:21,628 - mineflayer - INFO - 
+2023-06-02 17:09:57,105 - mineflayer - INFO - TypeError: bot.inventory.countUsedSlots is not a function
+2023-06-02 17:09:57,105 - mineflayer - INFO - at depositUselessItems (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1534:39)
+2023-06-02 17:09:57,105 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 17:09:57,105 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1537:1)
+2023-06-02 17:09:57,105 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:09:57,105 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:09:57,107 - mineflayer - INFO - Your code:20
+2023-06-02 17:09:57,107 - mineflayer - INFO - const inventoryUsed = bot.inventory.countUsedSlots();
+2023-06-02 17:09:57,107 - mineflayer - INFO - bot.inventory.countUsedSlots is not a function
+2023-06-02 17:09:57,107 - mineflayer - INFO - 
+2023-06-02 17:11:59,841 - mineflayer - INFO - TypeError: bot.inventory.countUsedSlots is not a function
+2023-06-02 17:11:59,841 - mineflayer - INFO - at depositMoreUselessItems (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1534:39)
+2023-06-02 17:11:59,841 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 17:11:59,841 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1537:1)
+2023-06-02 17:11:59,841 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:11:59,841 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:11:59,841 - mineflayer - INFO - Your code:20
+2023-06-02 17:11:59,841 - mineflayer - INFO - const inventoryUsed = bot.inventory.countUsedSlots();
+2023-06-02 17:11:59,841 - mineflayer - INFO - bot.inventory.countUsedSlots is not a function
+2023-06-02 17:11:59,841 - mineflayer - INFO - 
+2023-06-02 17:17:07,658 - mineflayer - INFO - Error: No furnace nearby
+2023-06-02 17:17:07,658 - mineflayer - INFO - at smeltItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1286:15)
+2023-06-02 17:17:07,658 - mineflayer - INFO - at craftIronLeggings (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1562:11)
+2023-06-02 17:17:07,658 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 17:17:07,658 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1590:1)
+2023-06-02 17:17:07,658 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:17:07,658 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:17:07,658 - mineflayer - INFO - In your program code: throw new Error("No furnace nearby");
+2023-06-02 17:17:07,658 - mineflayer - INFO - No furnace nearby
+2023-06-02 17:17:07,658 - mineflayer - INFO - at line 7:await smeltItem(bot, "raw_iron", "coal", 7 - (ironIngots ? ironIngots.count : 0)); in your code
+2023-06-02 17:20:10,723 - mineflayer - INFO - Error: Can't find coal in slots [3 - 39], (item id: 720)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at transferOne (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:258:32)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at EventEmitter.transfer (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:244:11)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at putSomething (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\furnace.js:104:17)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at Window.putFuel (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\furnace.js:112:13)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at smeltItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1304:27)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at async craftIronLeggings (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1586:5)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1616:1)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:20:10,723 - mineflayer - INFO - C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:258
+2023-06-02 17:20:10,723 - mineflayer - INFO - if (!sourceItem) throw new Error(`Can't find ${mcDataEntry.name} in slots [${sourceStart} - ${sourceEnd}], (item id: ${itemType})`)
+2023-06-02 17:20:10,723 - mineflayer - INFO - Can't find coal in slots [3 - 39], (item id: 720)
+2023-06-02 17:20:10,723 - mineflayer - INFO - at await smeltItem(bot, "raw_iron", "coal", 7 - (ironIngots ? ironIngots.count : 0)); in your code
+2023-06-02 17:21:41,544 - mineflayer - INFO - ReferenceError: craftIronLeggings is not defined
+2023-06-02 17:21:41,544 - mineflayer - INFO - at craftIronLeggingsWithCoal (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1571:5)
+2023-06-02 17:21:41,544 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 17:21:41,544 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1576:1)
+2023-06-02 17:21:41,544 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:21:41,544 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:21:41,544 - mineflayer - INFO - Your code:16
+2023-06-02 17:21:41,544 - mineflayer - INFO - await craftIronLeggings(bot);
+2023-06-02 17:21:41,544 - mineflayer - INFO - craftIronLeggings is not defined
+2023-06-02 17:21:41,544 - mineflayer - INFO - 
+2023-06-02 17:23:05,172 - mineflayer - INFO - NoChests: There are no defined chest locations!
+2023-06-02 17:23:05,172 - mineflayer - INFO - at error (C:\Users\harri\src\Voyager\voyager\env\mineflayer\mineflayer-collectblock\lib\Util.js:13:15)
+2023-06-02 17:23:05,172 - mineflayer - INFO - at C:\Users\harri\src\Voyager\voyager\env\mineflayer\mineflayer-collectblock\lib\Inventory.js:48:36
+2023-06-02 17:23:05,172 - mineflayer - INFO - at Generator.next (<anonymous>)
+2023-06-02 17:23:05,172 - mineflayer - INFO - at C:\Users\harri\src\Voyager\voyager\env\mineflayer\mineflayer-collectblock\lib\Inventory.js:8:71
+2023-06-02 17:23:05,172 - mineflayer - INFO - at new Promise (<anonymous>)
+2023-06-02 17:23:05,172 - mineflayer - INFO - at __awaiter (C:\Users\harri\src\Voyager\voyager\env\mineflayer\mineflayer-collectblock\lib\Inventory.js:4:12)
+2023-06-02 17:23:05,172 - mineflayer - INFO - at emptyInventory (C:\Users\harri\src\Voyager\voyager\env\mineflayer\mineflayer-collectblock\lib\Inventory.js:43:12)
+2023-06-02 17:23:05,172 - mineflayer - INFO - at C:\Users\harri\src\Voyager\voyager\env\mineflayer\mineflayer-collectblock\lib\Inventory.js:38:22
+2023-06-02 17:23:05,172 - mineflayer - INFO - at Generator.next (<anonymous>)
+2023-06-02 17:23:05,172 - mineflayer - INFO - at C:\Users\harri\src\Voyager\voyager\env\mineflayer\mineflayer-collectblock\lib\Inventory.js:8:71
+2023-06-02 17:23:05,172 - mineflayer - INFO - There are no defined chest locations!
+2023-06-02 17:30:04,000 - mineflayer - INFO - Error: Food is full
+2023-06-02 17:30:04,000 - mineflayer - INFO - at EventEmitter.consume [as _consume] (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:83:13)
+2023-06-02 17:30:04,000 - mineflayer - INFO - at bot.consume (C:\Users\harri\src\Voyager\voyager\env\mineflayer\lib\skillLoader.js:37:19)
+2023-06-02 17:30:04,000 - mineflayer - INFO - at killOneZombieWithHealth (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1563:15)
+2023-06-02 17:30:04,000 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1587:1)
+2023-06-02 17:30:04,000 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:30:04,000 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:30:04,000 - mineflayer - INFO - C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:83
+2023-06-02 17:30:04,000 - mineflayer - INFO - throw new Error('Food is full')
+2023-06-02 17:30:04,000 - mineflayer - INFO - Food is full
+2023-06-02 17:30:04,000 - mineflayer - INFO - at await bot.consume(); in your code
+2023-06-02 17:34:16,023 - mineflayer - INFO - ReferenceError: collectPeony is not defined
+2023-06-02 17:34:16,023 - mineflayer - INFO - at collectPeonyWithShears (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1557:3)
+2023-06-02 17:34:16,023 - mineflayer - INFO - at eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1559:7)
+2023-06-02 17:34:16,023 - mineflayer - INFO - at eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1559:37)
+2023-06-02 17:34:16,023 - mineflayer - INFO - at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19)
+2023-06-02 17:34:16,023 - mineflayer - INFO - at C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:21
+2023-06-02 17:34:16,023 - mineflayer - INFO - Your code:2
+2023-06-02 17:34:16,023 - mineflayer - INFO - await collectPeony(bot);
+2023-06-02 17:34:16,023 - mineflayer - INFO - collectPeony is not defined
+2023-06-02 17:34:16,023 - mineflayer - INFO - 
+2023-06-02 17:40:32,652 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 17:40:32,652 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:821:15)
+2023-06-02 17:40:32,652 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:915:9)
+2023-06-02 17:40:32,652 - mineflayer - INFO - at fishInRiver (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1561:11)
+2023-06-02 17:40:32,652 - mineflayer - INFO - at eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1581:7)
+2023-06-02 17:40:32,652 - mineflayer - INFO - at eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1581:26)
+2023-06-02 17:40:32,652 - mineflayer - INFO - at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19)
+2023-06-02 17:40:32,652 - mineflayer - INFO - at C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:21
+2023-06-02 17:40:32,652 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 17:40:32,652 - mineflayer - INFO - No crafting table nearby
+2023-06-02 17:40:32,652 - mineflayer - INFO - at line 6:await craftItem(bot, "fishing_rod", 1); in your code
+2023-06-02 17:43:33,692 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 17:43:33,692 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:821:15)
+2023-06-02 17:43:33,692 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:915:9)
+2023-06-02 17:43:33,692 - mineflayer - INFO - at fishInRiver (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1573:9)
+2023-06-02 17:43:33,692 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 17:43:33,692 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1592:1)
+2023-06-02 17:43:33,692 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:43:33,692 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:43:33,692 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 17:43:33,692 - mineflayer - INFO - No crafting table nearby
+2023-06-02 17:43:33,692 - mineflayer - INFO - at line 18:await craftItem(bot, "fishing_rod", 1); in your code
+2023-06-02 17:44:51,354 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 17:44:51,355 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:821:15)
+2023-06-02 17:44:51,355 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:915:9)
+2023-06-02 17:44:51,355 - mineflayer - INFO - at fishInRiver (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1593:9)
+2023-06-02 17:44:51,355 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 17:44:51,355 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1612:1)
+2023-06-02 17:44:51,355 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:44:51,355 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:44:51,355 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 17:44:51,355 - mineflayer - INFO - No crafting table nearby
+2023-06-02 17:44:51,355 - mineflayer - INFO - at line 38:await craftItem(bot, "fishing_rod", 1); in your code
+2023-06-02 17:48:02,857 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 17:48:02,857 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:834:15)
+2023-06-02 17:48:02,857 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:928:9)
+2023-06-02 17:48:02,857 - mineflayer - INFO - at craftShield (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1594:9)
+2023-06-02 17:48:02,857 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1597:1)
+2023-06-02 17:48:02,857 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:48:02,857 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:48:02,857 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 17:48:02,857 - mineflayer - INFO - No crafting table nearby
+2023-06-02 17:48:02,857 - mineflayer - INFO - at line 26:await craftItem(bot, "shield", 1); in your code
+2023-06-02 17:49:15,268 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 17:49:15,268 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:834:15)
+2023-06-02 17:49:15,268 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:928:9)
+2023-06-02 17:49:15,268 - mineflayer - INFO - at craftShield (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1609:9)
+2023-06-02 17:49:15,268 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1612:1)
+2023-06-02 17:49:15,269 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:49:15,269 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:49:15,269 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 17:49:15,269 - mineflayer - INFO - No crafting table nearby
+2023-06-02 17:49:15,269 - mineflayer - INFO - at line 41:await craftItem(bot, "shield", 1); in your code
+2023-06-02 17:52:25,461 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 17:52:25,462 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:834:15)
+2023-06-02 17:52:25,462 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:928:9)
+2023-06-02 17:52:25,462 - mineflayer - INFO - at craftShieldWithExploration (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1624:9)
+2023-06-02 17:52:25,462 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 17:52:25,462 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1627:1)
+2023-06-02 17:52:25,462 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:52:25,462 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:52:25,462 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 17:52:25,462 - mineflayer - INFO - No crafting table nearby
+2023-06-02 17:52:25,462 - mineflayer - INFO - at line 56:await craftItem(bot, "shield", 1); in your code
+2023-06-02 17:53:58,218 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 17:53:58,218 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:834:15)
+2023-06-02 17:53:58,218 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:928:9)
+2023-06-02 17:53:58,218 - mineflayer - INFO - at craftShieldWithExploration (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1626:9)
+2023-06-02 17:53:58,218 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1629:1)
+2023-06-02 17:53:58,218 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 17:53:58,218 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 17:53:58,218 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 17:53:58,218 - mineflayer - INFO - No crafting table nearby
+2023-06-02 17:53:58,218 - mineflayer - INFO - at line 58:await craftItem(bot, "shield", 1); in your code
+2023-06-02 18:11:57,236 - mineflayer - INFO - Error: direction must be a Vec3 only with value of -1, 0 or 1
+2023-06-02 18:11:57,236 - mineflayer - INFO - at exploreUntil (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1046:15)
+2023-06-02 18:11:57,236 - mineflayer - INFO - at craftSpyglassWithAmethystShard (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1649:31)
+2023-06-02 18:11:57,236 - mineflayer - INFO - at eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1689:7)
+2023-06-02 18:11:57,236 - mineflayer - INFO - at eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1689:45)
+2023-06-02 18:11:57,236 - mineflayer - INFO - at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19)
+2023-06-02 18:11:57,236 - mineflayer - INFO - at C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:21
+2023-06-02 18:11:57,236 - mineflayer - INFO - In your program code: throw new Error(
+2023-06-02 18:11:57,236 - mineflayer - INFO - direction must be a Vec3 only with value of -1, 0 or 1
+2023-06-02 18:11:57,236 - mineflayer - INFO - at line 4:const amethystBlock = await exploreUntil(bot, direction, 60, () => { in your code
+2023-06-02 18:43:09,097 - mineflayer - INFO - Error: No furnace nearby
+2023-06-02 18:43:09,098 - mineflayer - INFO - at smeltItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1451:15)
+2023-06-02 18:43:09,098 - mineflayer - INFO - at craftIronLeggingsWithSmelting (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1733:13)
+2023-06-02 18:43:09,098 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 18:43:09,098 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1762:1)
+2023-06-02 18:43:09,098 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 18:43:09,098 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 18:43:09,098 - mineflayer - INFO - In your program code: throw new Error("No furnace nearby");
+2023-06-02 18:43:09,098 - mineflayer - INFO - No furnace nearby
+2023-06-02 18:43:09,098 - mineflayer - INFO - at line 13:await smeltItem(bot, "raw_iron", "coal", rawIron.count); in your code
+2023-06-02 18:54:52,928 - mineflayer - INFO - Error: destination full
+2023-06-02 18:54:52,928 - mineflayer - INFO - at clickDest (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:283:19)
+2023-06-02 18:54:52,928 - mineflayer - INFO - at transferOne (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:263:13)
+2023-06-02 18:54:52,928 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 18:54:52,928 - mineflayer - INFO - at async transfer (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:244:5)
+2023-06-02 18:54:52,928 - mineflayer - INFO - at async window.deposit (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:341:7)
+2023-06-02 18:54:52,928 - mineflayer - INFO - at async depositUselessItems (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1847:7)
+2023-06-02 18:54:52,928 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1862:1)
+2023-06-02 18:54:52,928 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 18:54:52,928 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 18:54:52,928 - mineflayer - INFO - C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:283
+2023-06-02 18:54:52,929 - mineflayer - INFO - throw new Error('destination full')
+2023-06-02 18:54:52,929 - mineflayer - INFO - destination full
+2023-06-02 18:54:52,929 - mineflayer - INFO - at await chest.deposit(item.type, null, item.count); in your code
+2023-06-02 18:55:49,077 - mineflayer - INFO - TypeError: chest.containerSize is not a function
+2023-06-02 18:55:49,077 - mineflayer - INFO - at depositUselessItems (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1844:47)
+2023-06-02 18:55:49,077 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 18:55:49,077 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1882:1)
+2023-06-02 18:55:49,077 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 18:55:49,077 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 18:55:49,077 - mineflayer - INFO - Your code:13
+2023-06-02 18:55:49,077 - mineflayer - INFO - if (chest.containerItems().length === chest.containerSize()) {
+2023-06-02 18:55:49,077 - mineflayer - INFO - chest.containerSize is not a function
+2023-06-02 18:55:49,077 - mineflayer - INFO - 
+2023-06-02 18:56:47,628 - mineflayer - INFO - Error: destination full
+2023-06-02 18:56:47,628 - mineflayer - INFO - at clickDest (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:283:19)
+2023-06-02 18:56:47,628 - mineflayer - INFO - at transferOne (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:263:13)
+2023-06-02 18:56:47,628 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 18:56:47,628 - mineflayer - INFO - at async transfer (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:244:5)
+2023-06-02 18:56:47,629 - mineflayer - INFO - at async window.deposit (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:341:7)
+2023-06-02 18:56:47,629 - mineflayer - INFO - at async depositUselessItems (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1867:7)
+2023-06-02 18:56:47,629 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1882:1)
+2023-06-02 18:56:47,629 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 18:56:47,629 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 18:56:47,629 - mineflayer - INFO - C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\inventory.js:283
+2023-06-02 18:56:47,629 - mineflayer - INFO - throw new Error('destination full')
+2023-06-02 18:56:47,629 - mineflayer - INFO - destination full
+2023-06-02 18:56:47,629 - mineflayer - INFO - at await chest.deposit(item.type, null, item.count); in your code
+2023-06-02 19:10:38,116 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 19:10:38,116 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1097:15)
+2023-06-02 19:10:38,116 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1191:9)
+2023-06-02 19:10:38,116 - mineflayer - INFO - at craftIronBoots (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1864:9)
+2023-06-02 19:10:38,116 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 19:10:38,116 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1867:1)
+2023-06-02 19:10:38,116 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 19:10:38,116 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 19:10:38,116 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 19:10:38,116 - mineflayer - INFO - No crafting table nearby
+2023-06-02 19:10:38,116 - mineflayer - INFO - at line 33:await craftItem(bot, "iron_boots", 1); in your code
+2023-06-02 19:13:37,971 - mineflayer - INFO - Error: No crafting table nearby
+2023-06-02 19:13:37,971 - mineflayer - INFO - at failedCraftFeedback (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1150:15)
+2023-06-02 19:13:37,971 - mineflayer - INFO - at craftItem (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1244:9)
+2023-06-02 19:13:37,971 - mineflayer - INFO - at craftIronHelmet (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1907:9)
+2023-06-02 19:13:37,971 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-06-02 19:13:37,971 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1910:1)
+2023-06-02 19:13:37,971 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 19:13:37,971 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 19:13:37,971 - mineflayer - INFO - In your program code: throw new Error(`No crafting table nearby`);
+2023-06-02 19:13:37,971 - mineflayer - INFO - No crafting table nearby
+2023-06-02 19:13:37,971 - mineflayer - INFO - at line 23:await craftItem(bot, "iron_helmet", 1); in your code
+2023-06-02 19:17:02,524 - mineflayer - INFO - Error: containerToOpen is neither a block nor an entity
+2023-06-02 19:17:02,525 - mineflayer - INFO - at EventEmitter.openContainer (C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\chest.js:23:13)
+2023-06-02 19:17:02,525 - mineflayer - INFO - at openChestAtPosition (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1934:13)
+2023-06-02 19:17:02,525 - mineflayer - INFO - at openChestTask (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1945:9)
+2023-06-02 19:17:02,525 - mineflayer - INFO - at async eval (eval at evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:19), <anonymous>:1949:1)
+2023-06-02 19:17:02,525 - mineflayer - INFO - at async evaluateCode (C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:263:13)
+2023-06-02 19:17:02,525 - mineflayer - INFO - at async C:\Users\harri\src\Voyager\voyager\env\mineflayer\index.js:246:15
+2023-06-02 19:17:02,525 - mineflayer - INFO - C:\Users\harri\src\Voyager\voyager\env\mineflayer\node_modules\mineflayer\lib\plugins\chest.js:23
+2023-06-02 19:17:02,525 - mineflayer - INFO - throw new Error('containerToOpen is neither a block nor an entity')
+2023-06-02 19:17:02,525 - mineflayer - INFO - containerToOpen is neither a block nor an entity
+2023-06-02 19:17:02,525 - mineflayer - INFO - at await bot.openContainer(chestBlock); in your code
+2023-06-02 19:27:50,714 - mineflayer - INFO - Stopping subprocess.
+2023-06-02 19:27:51,744 - mineflayer - INFO - Starting subprocess with commands: ['node', 'C:\\Users\\harri\\src\\Voyager\\voyager\\env\\mineflayer/index.js', '3000']
+2023-06-02 19:27:52,301 - mineflayer - INFO - Server started on port 3000
+2023-06-02 19:27:52,302 - mineflayer - INFO - Subprocess is ready.
+2023-06-02 19:27:52,317 - mineflayer - INFO - {
+2023-06-02 19:27:52,317 - mineflayer - INFO - port: 64751,
+2023-06-02 19:27:52,317 - mineflayer - INFO - reset: 'hard',
+2023-06-02 19:27:52,317 - mineflayer - INFO - inventory: {
+2023-06-02 19:27:52,317 - mineflayer - INFO - crafting_table: 2,
+2023-06-02 19:27:52,317 - mineflayer - INFO - lapis_lazuli: 44,
+2023-06-02 19:27:52,317 - mineflayer - INFO - sand: 1,
+2023-06-02 19:27:52,317 - mineflayer - INFO - iron_ingot: 11,
+2023-06-02 19:27:52,317 - mineflayer - INFO - iron_helmet: 2,
+2023-06-02 19:27:52,317 - mineflayer - INFO - diamond: 9,
+2023-06-02 19:27:52,317 - mineflayer - INFO - iron_pickaxe: 1,
+2023-06-02 19:27:52,317 - mineflayer - INFO - birch_log: 6,
+2023-06-02 19:27:52,317 - mineflayer - INFO - diorite: 95,
+2023-06-02 19:27:52,317 - mineflayer - INFO - copper_ingot: 2,
+2023-06-02 19:27:52,317 - mineflayer - INFO - cobblestone: 97,
+2023-06-02 19:27:52,317 - mineflayer - INFO - amethyst_block: 4,
+2023-06-02 19:27:52,317 - mineflayer - INFO - calcite: 3,
+2023-06-02 19:27:52,317 - mineflayer - INFO - iron_leggings: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - bone: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - birch_leaves: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - iron_boots: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - shield: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - water_bucket: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - smooth_basalt: 7,
+2023-06-02 19:27:52,318 - mineflayer - INFO - lightning_rod: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - coal: 3,
+2023-06-02 19:27:52,318 - mineflayer - INFO - cobbled_deepslate: 4,
+2023-06-02 19:27:52,318 - mineflayer - INFO - andesite: 4,
+2023-06-02 19:27:52,318 - mineflayer - INFO - chest: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - diamond_pickaxe: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - iron_sword: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - dirt: 4,
+2023-06-02 19:27:52,318 - mineflayer - INFO - cooked_chicken: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - furnace: 2,
+2023-06-02 19:27:52,318 - mineflayer - INFO - shears: 1,
+2023-06-02 19:27:52,318 - mineflayer - INFO - white_wool: 2
+2023-06-02 19:27:52,318 - mineflayer - INFO - },
+2023-06-02 19:27:52,318 - mineflayer - INFO - equipment: [ null, 'iron_chestplate', null, null, 'dirt', null ],
+2023-06-02 19:27:52,318 - mineflayer - INFO - spread: false,
+2023-06-02 19:27:52,318 - mineflayer - INFO - waitTicks: 20,
+2023-06-02 19:27:52,318 - mineflayer - INFO - position: { x: -26.673536463563842, y: 9, z: 19.475743120736727 }
+2023-06-02 19:27:52,318 - mineflayer - INFO - }
+2023-06-02 19:27:53,608 - mineflayer - INFO - Prismarine viewer web server running on *:3001

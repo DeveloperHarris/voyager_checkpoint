@@ -1,0 +1,14 @@
+2023-06-02 20:08:38,587 - mineflayer - INFO - Stopping subprocess.
+2023-06-02 20:08:39,588 - mineflayer - INFO - Starting subprocess with commands: ['node', 'C:\\Users\\harri\\src\\Voyager\\voyager\\env\\mineflayer/index.js', '3000']
+2023-06-02 20:08:40,140 - mineflayer - INFO - Server started on port 3000
+2023-06-02 20:08:40,141 - mineflayer - INFO - Subprocess is ready.
+2023-06-02 20:08:40,156 - mineflayer - INFO - {
+2023-06-02 20:08:40,156 - mineflayer - INFO - port: 64751,
+2023-06-02 20:08:40,156 - mineflayer - INFO - reset: 'soft',
+2023-06-02 20:08:40,156 - mineflayer - INFO - inventory: {},
+2023-06-02 20:08:40,158 - mineflayer - INFO - equipment: [],
+2023-06-02 20:08:40,158 - mineflayer - INFO - spread: false,
+2023-06-02 20:08:40,158 - mineflayer - INFO - waitTicks: 20,
+2023-06-02 20:08:40,158 - mineflayer - INFO - position: null
+2023-06-02 20:08:40,158 - mineflayer - INFO - }
+2023-06-02 20:08:41,466 - mineflayer - INFO - Prismarine viewer web server running on *:3001

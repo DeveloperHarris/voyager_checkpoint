@@ -1,0 +1,30 @@
+2023-06-02 14:13:04,978 - mineflayer - INFO - Stopping subprocess.
+2023-06-02 14:13:05,978 - mineflayer - INFO - Starting subprocess with commands: ['node', 'C:\\Users\\harri\\src\\Voyager\\voyager\\env\\mineflayer/index.js', '3000']
+2023-06-02 14:13:06,536 - mineflayer - INFO - Server started on port 3000
+2023-06-02 14:13:06,538 - mineflayer - INFO - Subprocess is ready.
+2023-06-02 14:13:06,550 - mineflayer - INFO - {
+2023-06-02 14:13:06,551 - mineflayer - INFO - port: 63632,
+2023-06-02 14:13:06,551 - mineflayer - INFO - reset: 'hard',
+2023-06-02 14:13:06,551 - mineflayer - INFO - inventory: {},
+2023-06-02 14:13:06,551 - mineflayer - INFO - equipment: [],
+2023-06-02 14:13:06,551 - mineflayer - INFO - spread: false,
+2023-06-02 14:13:06,551 - mineflayer - INFO - waitTicks: 20,
+2023-06-02 14:13:06,552 - mineflayer - INFO - position: null
+2023-06-02 14:13:06,552 - mineflayer - INFO - }
+2023-06-02 14:13:06,724 - mineflayer - INFO - Error: connect ECONNREFUSED ::1:63632
+2023-06-02 14:13:06,725 - mineflayer - INFO - at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+2023-06-02 14:13:06,725 - mineflayer - INFO - errno: -4078,
+2023-06-02 14:13:06,725 - mineflayer - INFO - code: 'ECONNREFUSED',
+2023-06-02 14:13:06,725 - mineflayer - INFO - syscall: 'connect',
+2023-06-02 14:13:06,725 - mineflayer - INFO - address: '::1',
+2023-06-02 14:13:06,725 - mineflayer - INFO - port: 63632
+2023-06-02 14:13:06,725 - mineflayer - INFO - }
+2023-06-02 14:13:06,725 - mineflayer - INFO - Error: connect ECONNREFUSED ::1:63632
+2023-06-02 14:13:06,725 - mineflayer - INFO - at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+2023-06-02 14:13:06,725 - mineflayer - INFO - errno: -4078,
+2023-06-02 14:13:06,725 - mineflayer - INFO - code: 'ECONNREFUSED',
+2023-06-02 14:13:06,725 - mineflayer - INFO - syscall: 'connect',
+2023-06-02 14:13:06,725 - mineflayer - INFO - address: '::1',
+2023-06-02 14:13:06,725 - mineflayer - INFO - port: 63632
+2023-06-02 14:13:06,725 - mineflayer - INFO - }
+2023-06-02 14:13:06,728 - mineflayer - INFO - Stopping subprocess.
